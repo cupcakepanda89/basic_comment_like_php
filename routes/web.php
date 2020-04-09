@@ -12,8 +12,7 @@
 */
 
 Route::get('/', 'IndexController@index')->name('home');
-Route::get('/home', 'IndexController@index');
-Route::get('/dashboard', 'IndexController@dashboard')->name('dashboard');
+Route::get('/home', 'IndexController@home');
 
 Route::get('/login', 'LoginController@login')->name('login');
 Route::get('/authorize', 'LoginController@callback');
@@ -21,9 +20,14 @@ Route::get('/logout', 'LoginController@logout')->name('logout');
 
 Route::get('/user', 'ProfileController@user')->name('user');
 
-Route::get('/posts', 'PostController@posts')->name('posts');
-Route::get('/showAllPosts', 'PostController@showAllPosts')->name('showAllPosts');
+Route::get('/home', 'PostController@myPost')->name('myPost');
 Route::post('/posts/create', 'PostController@postCreate')->name('posts-create');
 Route::post('/posts/like', 'PostController@addLike')->name('posts-like');
-//Route::post('/posts/delete', 'PostController@postDelete')->name('posts-delete');
+Route::get('/comments', 'PostController@comments')->name('comments');
+Route::get('/sortByNameAsc', 'PostController@sortByNameAsc')->name('sortByNameAsc');
+Route::get('/sortByLikeHighest', 'PostController@sortByLikeHighest')->name('sortByLikeHighest');
+Route::get('/jsonView', 'PostController@jsonView')->name('jsonView');
+Route::get('/downloadTxt', 'PostController@downloadTxt')->name('downloadTxt');
+
+
 

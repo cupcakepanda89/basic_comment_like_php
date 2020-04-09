@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2240871-f46c-44b7-85d1-b1223f043efd" name="Default Changelist" comment="" />
+    <list default="true" id="e2240871-f46c-44b7-85d1-b1223f043efd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ba0f3010-550f-475e-ad2c-68c7d35aa706.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ba0f3010-550f-475e-ad2c-68c7d35aa706.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_29_000000_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_29_000000_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/error.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/error.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -42,6 +56,9 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -140,6 +157,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZpkL9j0vcIVM3h7JkM8Odkiwpq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -148,6 +166,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -183,7 +202,17 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4549e208" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="com.intellij.database.console.session.MessageBusSession@c689bff" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@30df7d94" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -202,7 +231,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585543364317</updated>
-      <workItem from="1585543366912" duration="35276000" />
+      <workItem from="1585543366912" duration="50025000" />
+      <workItem from="1586128705560" duration="2434000" />
     </task>
     <servers />
   </component>
@@ -210,30 +240,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="121" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585543762397">
+    <state x="121" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586128001771">
       <screen x="32" y="23" width="1248" height="777" />
     </state>
-    <state x="121" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/32.23.1248.777@32.23.1248.777" timestamp="1585543762397" />
-    <state width="689" height="161" key="GridCell.Tab.0.bottom" timestamp="1586058479591">
+    <state x="121" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/32.23.1248.777@32.23.1248.777" timestamp="1586128001771" />
+    <state x="323" y="147" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586062431970">
       <screen x="32" y="23" width="1248" height="777" />
     </state>
-    <state width="689" height="161" key="GridCell.Tab.0.bottom/32.23.1248.777@32.23.1248.777" timestamp="1586058479591" />
-    <state width="689" height="161" key="GridCell.Tab.0.center" timestamp="1586058479588">
+    <state x="323" y="147" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/32.23.1248.777@32.23.1248.777" timestamp="1586062431970" />
+    <state width="863" height="161" key="GridCell.Tab.0.bottom" timestamp="1586128667800">
       <screen x="32" y="23" width="1248" height="777" />
     </state>
-    <state width="689" height="161" key="GridCell.Tab.0.center/32.23.1248.777@32.23.1248.777" timestamp="1586058479588" />
-    <state width="689" height="161" key="GridCell.Tab.0.left" timestamp="1586058479587">
+    <state width="863" height="161" key="GridCell.Tab.0.bottom/32.23.1248.777@32.23.1248.777" timestamp="1586128667800" />
+    <state width="863" height="161" key="GridCell.Tab.0.center" timestamp="1586128667799">
       <screen x="32" y="23" width="1248" height="777" />
     </state>
-    <state width="689" height="161" key="GridCell.Tab.0.left/32.23.1248.777@32.23.1248.777" timestamp="1586058479587" />
-    <state width="689" height="161" key="GridCell.Tab.0.right" timestamp="1586058479590">
+    <state width="863" height="161" key="GridCell.Tab.0.center/32.23.1248.777@32.23.1248.777" timestamp="1586128667799" />
+    <state width="863" height="161" key="GridCell.Tab.0.left" timestamp="1586128667799">
       <screen x="32" y="23" width="1248" height="777" />
     </state>
-    <state width="689" height="161" key="GridCell.Tab.0.right/32.23.1248.777@32.23.1248.777" timestamp="1586058479590" />
+    <state width="863" height="161" key="GridCell.Tab.0.left/32.23.1248.777@32.23.1248.777" timestamp="1586128667799" />
+    <state width="863" height="161" key="GridCell.Tab.0.right" timestamp="1586128667800">
+      <screen x="32" y="23" width="1248" height="777" />
+    </state>
+    <state width="863" height="161" key="GridCell.Tab.0.right/32.23.1248.777@32.23.1248.777" timestamp="1586128667800" />
     <state width="250" height="539" key="HiddenNamespacesPopup" timestamp="1585543825314">
       <screen x="32" y="23" width="1248" height="777" />
     </state>
     <state width="250" height="539" key="HiddenNamespacesPopup/32.23.1248.777@32.23.1248.777" timestamp="1585543825314" />
+    <state x="309" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1586128705923">
+      <screen x="32" y="23" width="1248" height="777" />
+    </state>
+    <state x="309" y="218" key="com.intellij.ide.util.TipDialog/32.23.1248.777@32.23.1248.777" timestamp="1586128705923" />
     <state x="250" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1585628104327">
       <screen x="32" y="23" width="1248" height="777" />
     </state>

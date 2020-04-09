@@ -68,7 +68,7 @@ class LoginController extends Controller
             Auth::guard('post')->login($user, true);
 
 
-            return redirect('/');
+            return redirect('/home');
         }
         catch (\Exception $e)
         {
